@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048F5CD719811AF000743ECA /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 048F5CD419811AF000743ECA /* UIImage+Color.m */; };
+		048F5CD819811AF000743ECA /* chatBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 048F5CD619811AF000743ECA /* chatBubble.png */; };
 		04F7149D198009A900939F29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7149C198009A900939F29 /* Foundation.framework */; };
 		04F7149F198009A900939F29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F7149E198009A900939F29 /* CoreGraphics.framework */; };
 		04F714A1198009A900939F29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F714A0198009A900939F29 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048F5CD319811AF000743ECA /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		048F5CD419811AF000743ECA /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		048F5CD619811AF000743ECA /* chatBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chatBubble.png; sourceTree = "<group>"; };
 		04F71499198009A900939F29 /* ChangeImageColorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeImageColorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F7149C198009A900939F29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04F7149E198009A900939F29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048F5CD219811AF000743ECA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				048F5CD319811AF000743ECA /* UIImage+Color.h */,
+				048F5CD419811AF000743ECA /* UIImage+Color.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		048F5CD519811AF000743ECA /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				048F5CD619811AF000743ECA /* chatBubble.png */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
 		04F71490198009A900939F29 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +139,8 @@
 				04F714AE198009A900939F29 /* Main.storyboard */,
 				04F714B1198009A900939F29 /* ViewController.h */,
 				04F714B2198009A900939F29 /* ViewController.m */,
+				048F5CD219811AF000743ECA /* Categories */,
+				048F5CD519811AF000743ECA /* graphics */,
 				04F714B4198009A900939F29 /* Images.xcassets */,
 				04F714A3198009A900939F29 /* Supporting Files */,
 			);
@@ -229,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F714B5198009A900939F29 /* Images.xcassets in Resources */,
+				048F5CD819811AF000743ECA /* chatBubble.png in Resources */,
 				04F714A7198009A900939F29 /* InfoPlist.strings in Resources */,
 				04F714B0198009A900939F29 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04F714B3198009A900939F29 /* ViewController.m in Sources */,
+				048F5CD719811AF000743ECA /* UIImage+Color.m in Sources */,
 				04F714AD198009A900939F29 /* AppDelegate.m in Sources */,
 				04F714A9198009A900939F29 /* main.m in Sources */,
 			);
@@ -456,6 +482,7 @@
 				04F714CD198009A900939F29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F714CE198009A900939F29 /* Build configuration list for PBXNativeTarget "ChangeImageColorDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +491,7 @@
 				04F714D0198009A900939F29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

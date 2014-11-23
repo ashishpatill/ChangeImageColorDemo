@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *chatBbleImgViw;
+
+- (IBAction)changeColorBtnAction:(UIButton *)sender;
 @end
